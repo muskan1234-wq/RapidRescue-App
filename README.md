@@ -14,7 +14,7 @@ It is built using Java and integrates hardware support (Arduino + sensors) for r
 - Profile management  
 
 🚨 Accident Detection System  
-- Automatic accident detection using sensors / hardware integration  
+- Automatic accident detection using MPU6050 sensor / hardware integration  
 - Vibration alert when accident is detected  
 - "I am OK" safety confirmation feature  
 
@@ -36,37 +36,34 @@ It is built using Java and integrates hardware support (Arduino + sensors) for r
 ## 🧱 Tech Stack
 
 ### 📱 Android App
-- Java (Android Studio)
-- XML (UI Design)
-- SQLite / Local Storage
-- Google Location Services
+- Java (Android Studio)  
+- XML (UI Design)  
+- SQLite / Local Storage  
+- Google Location Services  
 
 ### 🔧 Hardware Integration
-- Arduino Uno
-- MPU6050 Sensor (Acceleration Detection)
-- HC-05 Bluetooth Module
-- GPS Module
+- Arduino Uno  
+- MPU6050 Sensor (Acceleration Detection)  
+- HC-05 Bluetooth Module  
+- GPS Module  
 
-
+---
 
 ## 📂 Project Structure
 
-RapidRescue/
-│
-├── app/
-│ ├── java/com/rapidrescue/
-│ │ ├── activities/
-│ │ ├── services/
-│ │ ├── adapters/
-│ │ ├── utils/
-│ │
-│ ├── res/
-│ ├── layout/
-│ ├── drawable/
-│ ├── values/
-│
-├── AndroidManifest.xml
-└── build.gradle
+📦 RapidRescue
+┣ 📂 app
+┃ ┣ 📂 java/com/rapidrescue
+┃ ┃ ┣ 📂 activities
+┃ ┃ ┣ 📂 services
+┃ ┃ ┣ 📂 adapters
+┃ ┃ ┗ 📂 utils
+┃ ┣ 📂 res
+┃ ┃ ┣ 📂 layout
+┃ ┃ ┣ 📂 drawable
+┃ ┃ ┗ 📂 values
+┣ 📜 AndroidManifest.xml
+┗ 📜 build.gradle
 
 
 ---
@@ -80,41 +77,23 @@ cd rapidrescue
 2️⃣ Open in Android Studio
 Open Android Studio
 
-Click on Open Existing Project
+Click Open Existing Project
 
-Select this folder
+Select project folder
 
 3️⃣ Run App
 Connect emulator or physical device
 
-Click Run ▶
+Click ▶ Run
 
-🔧 Hardware Setup (Optional)
-Connect MPU6050 to Arduino Uno
 
-Connect HC-05 Bluetooth module
-
-Upload Arduino code to detect sudden acceleration
-
-Pair Arduino with Android app via Bluetooth
-
-📸 App Screens (Example)
-Login / Registration Screen
-
-Home Dashboard
-
-Emergency Contacts Screen
-
-Accident Alert Popup
-
-Live Location Sharing Screen
 
 🚀 Future Improvements
-AI-based accident detection improvement
+AI-based accident detection system
 
-Cloud database integration (Firebase)
+Firebase cloud integration
 
-Real-time tracking for emergency services
+Real-time tracking for ambulance/police
 
 Voice command activation
 
@@ -124,19 +103,13 @@ Wearable device integration
 Muskan Pathan
 BTech Computer Science & Engineering
 Project: RapidRescue – Smart Safety System
-## 📸 App Screenshots
 
-### 🔐 Login & Registration
-![Login Screen](screenshots/login.png)
+🤝 Contribution
+Fork repository
 
-### 🏠 Home Dashboard
-![Home Screen](screenshots/home.png)
+Create feature branch
 
-### 📞 Emergency Contacts
-![Contacts Screen](screenshots/contacts.png)
+Commit changes
 
-### 🚨 Accident Alert Screen
-![Alert Screen](screenshots/alert.png)
-
-
+Open Pull Request
 
