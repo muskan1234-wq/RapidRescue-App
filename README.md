@@ -93,7 +93,7 @@ Wearable device integration
 
 👩‍💻 Developer
 Muskan Pathan
-BTech Computer Science & Engineering
+B.Tech Computer Science & Engineering
 Project: RapidRescue – Smart Safety System
 
 
