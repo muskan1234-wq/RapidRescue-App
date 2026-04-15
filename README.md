@@ -96,12 +96,4 @@ Muskan Pathan
 BTech Computer Science & Engineering
 Project: RapidRescue – Smart Safety System
 
-🤝 Contribution
-Fork repository
-
-Create feature branch
-
-Commit changes
-
-Open Pull Request
 
