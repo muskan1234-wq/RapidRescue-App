@@ -41,13 +41,6 @@ It is built using Java and integrates hardware support (Arduino + sensors) for r
 - SQLite / Local Storage  
 - Google Location Services  
 
-### 🔧 Hardware Integration
-- Arduino Uno  
-- MPU6050 Sensor (Acceleration Detection)  
-- HC-05 Bluetooth Module  
-- GPS Module  
-
----
 
 ## 📂 Project Structure
 
