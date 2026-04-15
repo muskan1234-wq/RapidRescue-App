@@ -44,20 +44,19 @@ It is built using Java and integrates hardware support (Arduino + sensors) for r
 
 ## 📂 Project Structure
 
-📦 RapidRescue
-┣ 📂 app
-┃ ┣ 📂 java/com/rapidrescue
-┃ ┃ ┣ 📂 activities
-┃ ┃ ┣ 📂 services
-┃ ┃ ┣ 📂 adapters
-┃ ┃ ┗ 📂 utils
-┃ ┣ 📂 res
-┃ ┃ ┣ 📂 layout
-┃ ┃ ┣ 📂 drawable
-┃ ┃ ┗ 📂 values
-┣ 📜 AndroidManifest.xml
-┗ 📜 build.gradle
-
+RapidRescue
+  - app
+    - java/com/rapidrescue
+      - activities
+      - services
+      - adapters
+      - utils
+    - res
+      - layout
+      - drawable
+      - values
+  - AndroidManifest.xml
+  - build.gradle
 
 ---
 
