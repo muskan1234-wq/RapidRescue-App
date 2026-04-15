@@ -47,10 +47,7 @@ It is built using Java and integrates hardware support (Arduino + sensors) for r
 - HC-05 Bluetooth Module
 - GPS Module
 
-### 🌐 Backend (Optional)
-- PHP / MySQL (for storing user data)
 
----
 
 ## 📂 Project Structure
 
@@ -71,8 +68,6 @@ RapidRescue/
 ├── AndroidManifest.xml
 └── build.gradle
 
-yaml
-Copy code
 
 ---
 
@@ -129,29 +124,19 @@ Wearable device integration
 Muskan Pathan
 BTech Computer Science & Engineering
 Project: RapidRescue – Smart Safety System
+## 📸 App Screenshots
 
-🤝 Contribution
-Fork the repository
+### 🔐 Login & Registration
+![Login Screen](screenshots/login.png)
 
-Create feature branch
+### 🏠 Home Dashboard
+![Home Screen](screenshots/home.png)
 
-Commit changes
+### 📞 Emergency Contacts
+![Contacts Screen](screenshots/contacts.png)
 
-Open Pull Request
+### 🚨 Accident Alert Screen
+![Alert Screen](screenshots/alert.png)
 
-📄 License
-This project is for educational and personal use only.
 
-yaml
-Copy code
 
----
-
-# 🎯 Agar tum chaho
-Main tumhare RapidRescue ke liye:
-✔ GitHub repository setup  
-✔ professional banner image  
-✔ app screenshots layout  
-✔ resume description (1-liner + full project description)  
-
-bhi bana dunga 👍
